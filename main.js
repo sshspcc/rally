@@ -29,7 +29,7 @@ let getClub = function () {
 
 let preload = function () {
     for (let i = 0; i < keys.length; i++) {
-        $(`<img src="img/${clubDic[keys[i]]}.png"`);
+        $(`<img src="img/${keys[i]}.png"`);
         console.log(`preload${keys[i]}`);
     }
 }
@@ -50,11 +50,13 @@ let makeDOM = function () {
         }
         currentRowNum++;
         row.append($('<td>')
+            .append($(`<p class="text-center">${clubDic[keys[i]]}</p>`))
             .append($('<img>', {
                 'src': 'img/none.png',
                 'id': keys[i]
             })
-            ));
+            )
+        );
 
     }
 }
