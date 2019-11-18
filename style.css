@@ -1,0 +1,20 @@
+img{
+    width: 25vw;
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* background-color: rgb(255, 230, 0); */
+    
+    background-color: rgb(255, 230, 0);;
+    background-image:
+        repeating-linear-gradient(-45deg,
+        #ffd51b, #ffd51b 7.5px,
+        transparent 0, transparent 15px);
+    background-size: 100vh, 100vw;
+}
+
+td{
+    background-color: white;
+    border: solid 3px black;
+}
