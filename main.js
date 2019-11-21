@@ -50,7 +50,7 @@ let makeDOM = function () {
         }
         currentRowNum++;
         row.append($('<td>')
-            .append($(`<p class="text-center">${i+1}</p>`))
+            .append($(`<p class="text-center" style="position: absolute;>${i+1}</p>`))
             .append($('<img>', {
                 'src': 'img/none.png',
                 'id': keys[i]
