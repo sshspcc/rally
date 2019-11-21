@@ -51,7 +51,7 @@ let makeDOM = function () {
         currentRowNum++;
         row.append($('<td>')
             .append($('<img>', {
-                'src': 'img/none.png',
+                // 'src': 'img/none.png',
                 'id': keys[i]
             })
             )
