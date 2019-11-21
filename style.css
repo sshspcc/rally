@@ -19,3 +19,11 @@ td{
     background-color: white;
     border: solid 3px black;
 }
+
+td p{
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 5vh;
+    height: 0px;
+}
