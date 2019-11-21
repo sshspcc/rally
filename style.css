@@ -18,13 +18,13 @@ td{
     font-size: 5vw;
     background-color: white;
     border: solid 3px black;
+    width: 25vw;
+    height: 25vw;
 }
 
 td p{
     margin-top: 0;
     margin-bottom: 0;
-    position: relative;
-    top: 5vh;
     height: 0px;
     color: darkgrey;
 }
