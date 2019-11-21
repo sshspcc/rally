@@ -54,8 +54,8 @@ let makeDOM = function () {
                 'src': 'img/none.png',
                 'id': keys[i]
             })
-            .append($(`<p class="text-center">${i+1}</p>`))
             )
+            .append($(`<p class="text-center">${i+1}</p>`))
         );
 
     }
