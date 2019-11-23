@@ -10,11 +10,11 @@ let getClub = function () {
         type: 'GET',
         dataType: 'json'
     })
-        .done(function (パソコン部) {
+        .done( () {
             // 部活のidと名前のjsonを連想配列に
-            "2rzzjf" = パソコン部;
+             = ;
             // 部活のid
-            keys = Object.keys("2rzzjf");
+            keys = Object.keys();
             // json取得後にDOM構築
             makeDOM();
             getId();
