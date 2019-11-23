@@ -12,9 +12,9 @@ let getClub = function () {
     })
         .done(function (data) {
             // 部活のidと名前のjsonを連想配列に
-            clubDic = data;
+            "2rzzjf" : "パソコン部",
             // 部活のid
-            keys = Object.keys(clubDic);
+            "2rzzjf" = Object.keys(clubDic);
             // json取得後にDOM構築
             makeDOM();
             getId();
