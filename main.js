@@ -10,7 +10,7 @@ let getClub = function () {
         type: 'GET',
         dataType: 'json'
     })
-        .done(function () {
+        .done(function (data) {
             // 部活のidと名前のjsonを連想配列に
             clubDic = data;
             // 部活のid
